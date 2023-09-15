@@ -1,0 +1,16 @@
+class Fac 
+{
+	public static int fac(int n)
+	{
+		int n%10=d;
+		if(n==0)
+		{
+			return 1;
+		}
+		return n%10*d+n/10;
+	}
+		public static void main(String[] args) 
+	{
+		System.out.println(fac(54321));
+	}
+}

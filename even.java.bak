@@ -1,0 +1,24 @@
+import java.util.Scanner;
+class Test 
+{
+	public static void main(String[] args) 
+	{
+		Scanner sc=new Scanner(System.in);
+		System.out.println("ENTER THE ARRAY SIZE");
+		int size=sc.nextInt();
+		int [] x=new int[size];
+		System.out.println("enter the value");
+		for(int i=0;i<size;i++)
+		{
+			x[i]=sc.nextInt();
+		}
+		System.out.println("your values are");
+		for(int i=0;i<size;i++)
+		{
+			if(x[i]%2==0)
+			{
+				System.out.println(x[i])0;
+			}
+		}
+	}
+}

@@ -1,0 +1,29 @@
+class Armstrong 
+{
+	public static void main(String[] args) 
+	{
+		int n=153;
+		int temp=n;
+		int count=0;
+		int pro=1;
+		int sum=0;
+		while(n!=0)
+		{
+			n/=10;
+			count++;
+		}
+		n=temp;
+		while(n!=0)
+		{
+			int last=n%10;
+			sum=sum+pro;
+			n/=10;
+		}
+		if(temp==sum)
+		{
+			System.out.println("Arm strong number");
+		}
+		else
+		System.out.println("Not a arm strong number");
+	}
+}
